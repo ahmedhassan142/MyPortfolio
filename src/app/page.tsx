@@ -17,18 +17,21 @@ interface Project {
 const projects: Project[] = [
   {
     id: '1',
+    title: 'AI ChatBOT ERP',
+    description: 'ERP based AI chatbot cotnaining the solutions of Sales ,Engineering and Support ',
+    tags: ['AI', 'CHatbot', 'Fullstack','ERP'],
+    link: 'https://ai-chatbot-one-livid.vercel.app'
+  },
+ 
+
+  {
+    id: '2',
     title: 'Urdu Sentiment Analysis',
     description: 'BERT model for Urdu sentiment classification (deployed on huggingface)',
     tags: ['NLP', 'TensorFlow', 'Hugging Face','Gradio'],
     link: 'https://huggingface.co/spaces/Ahmedhassan54/Nlp-chatbot'
   },
-  {
-    id: '2',
-    title: 'Image-Classifier',
-    description: 'Image Classification on Cat vs Dog (deployed on huggingface) ',
-    tags: ['CV', 'DL','Tensorflow','Numpy','Pandas','Huggingface', 'Gradio'],
-    link: 'https://huggingface.co/spaces/Ahmedhassan54/Image-Classification'
-  },
+ 
   {
     id: '3',
     title: 'Customer Churn Predictor',
@@ -50,71 +53,53 @@ const projects: Project[] = [
     tags: ['ML', 'Scikit-learn','Numpy','Pandas','XGboost','Hugging Face','Gradio'],
     link: 'https://huggingface.co/spaces/Ahmedhassan54/Demand-Forecasting'
   },
-   {
-    id: '6',
-    title: 'Defect-Detection',
-    description: 'Defect Detectoin in Metal Surface using Deeplearning CV (deployed on huggingface)',
-    tags: ['DL', 'CV','TensorFlow', 'Hugging Face','Gradio'],
-    link: 'https://huggingface.co/spaces/Ahmedhassan54/Defect-Detection'
-  },
+   
     {
-    id: '7',
+    id: '6',
     title: 'Travel-Blog-Website',
     description: 'Built a Travel BLog Website using NEXTjs for proper SEO SSR,CSR (deployed on vercel)',
     tags: [ 'Nextjs','Mongdb', 'Node.js','React.js'],
     link: 'https://travel-blog-website-git-72d31b-ahmed-hassans-projects-96c42d63.vercel.app/'
   },
-   {
-    id: '8',
-    title: 'Microservice-Ecommerce-Website',
-    description: 'Built a Microservice Ecommerce Website using MERN Stack and NextJs for proper SEO SSR,CSR (deployed on vercel and backend on render)',
-    tags: [ 'Nextjs','Mongdb', 'Node.js','React.js','Exoress'],
-    link: 'https://ecommerce-frontend-git-main-ahmed-hassans-projects-96c42d63.vercel.app/'
-  },
-   {
-    id: '9',
-    title: 'RealTime-ChatApplication',
-    description: 'Built a Real Time Chat Application using MERN Stack and NextJs for proper SEO SSR,CSR also use redis fro caching purpose and bull for message queue (deployed on vercel and backend on render) ',
-    tags: [ 'Nextjs','Mongdb', 'Node.js','React.js','Exoress'],
-    link: 'https://the-chafrontend-git-main-ahmed-hassans-projects-96c42d63.vercel.app'
-  },
+  
+  
     {
-    id: '10',
+    id: '7',
     title: 'Tech-Blog Website',
     description: 'Built a Tech-Blog Website using MERN Stack and NextJs for proper SEO SSR,CSR  (deployed on vercel and backend on render) ',
     tags: [ 'Nextjs','Mongdb', 'Node.js','React.js','Exoress'],
     link: 'https://tech-blog-frontend-3-git-8bf154-ahmed-hassans-projects-96c42d63.vercel.app'
   },
   {
-    id: '11',
+    id: '8',
     title: 'Mansalon',
     description: 'Built a ManSalon Website using  NextJs for  proper SEO SSR  (deployed on vercel ) ',
     tags: [ 'Nextjs','Mongdb', 'Node.js','React.js'],
     link: 'https://mansalon-lyy2-git-main-ahmed-hassans-projects-96c42d63.vercel.app'
   },
   {
-    id: '12',
+    id: '9',
     title: 'PlumberWebsite',
     description: 'Built a Plumber Website using  NextJs for  proper SEO SSR  (deployed on vercel ) ',
     tags: [ 'Nextjs','Mongdb', 'Node.js','React.js'],
     link: 'https://plumberwebsite-git-main-ahmed-hassans-projects-96c42d63.vercel.app'
   },
    {
-    id: '13',
+    id: '10',
     title: 'ServiceWebsite',
     description: 'Built a Restaurant Website using  NextJs for  proper SEO SSR  (deployed on vercel ) ',
     tags: [ 'Nextjs','Mongdb', 'Node.js','React.js'],
     link: "https://portfoliopersonla-we-git-141f83-ahmed-hassans-projects-96c42d63.vercel.app"
   },
    {
-    id: '14',
+    id: '11',
     title: 'RestaurantWebsite',
     description: 'Built a Restaurant Website using  NextJs for  proper SEO SSR  (deployed on vercel ) ',
     tags: [ 'Nextjs','Mongdb', 'Node.js','React.js'],
-    link: "https://restaurantapps-git-main-ahmed-hassans-projects-96c42d63.vercel.app/"
+    link: "https://restaurantapps-git-main-ahmed-hassans-projects-96c42d63.vercel.app"
   },
   {
-    id: '15',
+    id: '12',
     title: 'SimpleRestaurantWebsite',
     description: 'Built a Restaurant Website using  NextJs for  proper SEO SSR  (deployed on vercel ) ',
     tags: [ 'Nextjs', 'Node.js','React.js'],
@@ -122,14 +107,14 @@ const projects: Project[] = [
   },
  
    {
-    id: '16',
+    id: '13',
     title: 'FitnessWebsite',
     description: 'Built a Restaurant Website using  NextJs for  proper SEO SSR  (deployed on vercel ) ',
     tags: [ 'Nextjs','Mongdb', 'Node.js','React.js'],
     link: "https://fitnesswebsite-git-main-ahmed-hassans-projects-96c42d63.vercel.app/"
   },
      {
-    id: '17',
+    id: '14',
     title: 'DentistWebsite',
     description: 'Built a Dentist Website using  NextJs for  proper SEO SSR  (deployed on vercel ) ',
     tags: [ 'Nextjs','Mongdb', 'Node.js','React.js'],
