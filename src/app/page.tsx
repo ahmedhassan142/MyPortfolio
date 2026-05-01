@@ -18,14 +18,21 @@ const projects: Project[] = [
   {
     id: '1',
     title: 'AI ChatBOT ERP',
-    description: 'ERP based AI chatbot cotnaining the solutions of Sales ,Engineering and Support ',
+    description: 'ERP based AI chatbot cotnaining the solutions of Sales ,Engineering and support  ',
     tags: ['AI', 'CHatbot', 'Fullstack','ERP'],
     link: 'https://ai-chatbot-one-livid.vercel.app'
+  },
+  {
+    id: '2',
+    title: 'AI Content Writer',
+    description: 'ERP based AI Content Writer cotnaining the solutions of Sales ,Engineering and support  ',
+    tags: ['AI', 'CHatbot', 'Fullstack','ERP'],
+    link: 'https://ai-content-delta.vercel.app'
   },
  
 
   {
-    id: '2',
+    id: '3',
     title: 'Urdu Sentiment Analysis',
     description: 'BERT model for Urdu sentiment classification (deployed on huggingface)',
     tags: ['NLP', 'TensorFlow', 'Hugging Face','Gradio'],
@@ -33,21 +40,21 @@ const projects: Project[] = [
   },
  
   {
-    id: '3',
+    id: '4',
     title: 'Customer Churn Predictor',
     description: 'Developed a Customer Churn Predictor Model using Machine elarning Algorithm (deployed on huggingface)',
     tags: ['ML', 'Scikit-Learn', 'Numpy','Pandas','Hugging Face','Gradio'],
     link: 'https://huggingface.co/spaces/Ahmedhassan54/Customer-Churn-Predictor'
   },
   {
-    id: '4',
+    id: '5',
     title: 'Spam-Ham-Classification',
     description: 'Spam-Detection using Machine learning ALgorithm by using scikit-learn for imbalance class i have use smote (deployed on huggingface)',
     tags: ['ML', 'Scikit-learn','Numpy','Pandas', 'Hugging Face','Gradio'],
     link: 'https://huggingface.co/spaces/Ahmedhassan54/Spam-Ham-Classification'
   },
   {
-    id: '5',
+    id: '6',
     title: 'Demand-Forecating',
     description: 'Developed a DemandForecasting usnig Machine learning Algorithm (deployed on huggingface) ',
     tags: ['ML', 'Scikit-learn','Numpy','Pandas','XGboost','Hugging Face','Gradio'],
@@ -55,7 +62,7 @@ const projects: Project[] = [
   },
    
     {
-    id: '6',
+    id: '7',
     title: 'Travel-Blog-Website',
     description: 'Built a Travel BLog Website using NEXTjs for proper SEO SSR,CSR (deployed on vercel)',
     tags: [ 'Nextjs','Mongdb', 'Node.js','React.js'],
@@ -64,42 +71,42 @@ const projects: Project[] = [
   
   
     {
-    id: '7',
+    id: '8',
     title: 'Tech-Blog Website',
     description: 'Built a Tech-Blog Website using MERN Stack and NextJs for proper SEO SSR,CSR  (deployed on vercel and backend on render) ',
     tags: [ 'Nextjs','Mongdb', 'Node.js','React.js','Exoress'],
     link: 'https://tech-blog-frontend-3-git-8bf154-ahmed-hassans-projects-96c42d63.vercel.app'
   },
   {
-    id: '8',
+    id: '9',
     title: 'Mansalon',
     description: 'Built a ManSalon Website using  NextJs for  proper SEO SSR  (deployed on vercel ) ',
     tags: [ 'Nextjs','Mongdb', 'Node.js','React.js'],
     link: 'https://mansalon-lyy2-git-main-ahmed-hassans-projects-96c42d63.vercel.app'
   },
   {
-    id: '9',
+    id: '10',
     title: 'PlumberWebsite',
     description: 'Built a Plumber Website using  NextJs for  proper SEO SSR  (deployed on vercel ) ',
     tags: [ 'Nextjs','Mongdb', 'Node.js','React.js'],
     link: 'https://plumberwebsite-git-main-ahmed-hassans-projects-96c42d63.vercel.app'
   },
    {
-    id: '10',
+    id: '11',
     title: 'ServiceWebsite',
     description: 'Built a Restaurant Website using  NextJs for  proper SEO SSR  (deployed on vercel ) ',
     tags: [ 'Nextjs','Mongdb', 'Node.js','React.js'],
     link: "https://portfoliopersonla-we-git-141f83-ahmed-hassans-projects-96c42d63.vercel.app"
   },
    {
-    id: '11',
+    id: '12',
     title: 'RestaurantWebsite',
     description: 'Built a Restaurant Website using  NextJs for  proper SEO SSR  (deployed on vercel ) ',
     tags: [ 'Nextjs','Mongdb', 'Node.js','React.js'],
     link: "https://restaurantapps-git-main-ahmed-hassans-projects-96c42d63.vercel.app"
   },
   {
-    id: '12',
+    id: '13',
     title: 'SimpleRestaurantWebsite',
     description: 'Built a Restaurant Website using  NextJs for  proper SEO SSR  (deployed on vercel ) ',
     tags: [ 'Nextjs', 'Node.js','React.js'],
@@ -107,14 +114,14 @@ const projects: Project[] = [
   },
  
    {
-    id: '13',
+    id: '14',
     title: 'FitnessWebsite',
     description: 'Built a Restaurant Website using  NextJs for  proper SEO SSR  (deployed on vercel ) ',
     tags: [ 'Nextjs','Mongdb', 'Node.js','React.js'],
     link: "https://fitnesswebsite-git-main-ahmed-hassans-projects-96c42d63.vercel.app/"
   },
      {
-    id: '14',
+    id: '15',
     title: 'DentistWebsite',
     description: 'Built a Dentist Website using  NextJs for  proper SEO SSR  (deployed on vercel ) ',
     tags: [ 'Nextjs','Mongdb', 'Node.js','React.js'],
